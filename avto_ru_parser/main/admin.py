@@ -1,3 +1,5 @@
 from django.contrib import admin
+from main.models import Mark, Model
 
-# Register your models here.
+admin.site.register(Mark)
+admin.site.register(Model)
